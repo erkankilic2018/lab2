@@ -1,0 +1,24 @@
+#include "eecs230.h"
+
+//
+// Lab 2 programs
+//
+int main() {
+
+    string friend_gender = " ";
+    string friend_name = " ";
+    string female = "f";
+    string male = "m";
+
+    cout << "Write a friend's name and gender: ";
+    cin >> friend_name >> friend_gender;
+
+    if (friend_gender == female) {
+
+        cout << "If you see " << friend_name << " please ask her to call me.\n";
+    }
+    if (friend_gender == male) {
+
+        cout << "If you see " << friend_name << " please ask him to call me.\n";
+    }
+}
