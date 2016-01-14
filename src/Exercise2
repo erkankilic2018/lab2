@@ -1,0 +1,42 @@
+#include "eecs230.h"
+
+//
+// Lab 2 programs
+//
+int main() {
+
+    int a= 0;
+    int b= 0;
+    char c = 0;
+    string plus  = "+";
+    string minus = "-";
+    string times = "*";
+    string division = "/";
+    string operation = " ";
+
+    cout<< "Enter an operation: ";
+    cin>>operation>>a>>b;
+
+    if(operation == plus ) {
+        cout << a + b;
+
+    }
+
+        if(operation == minus ) {
+            cout << a - b;
+        }
+            if(operation == times ) {
+                cout << a * b;
+            }
+                if(operation == division ) {
+                    cout << a / b;
+                }
+    }
+
+
+
+
+
+
+
+
