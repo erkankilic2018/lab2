@@ -1,0 +1,54 @@
+#include "eecs230.h"
+
+//
+// Lab 2 programs
+//
+int main() {
+    string zero = "zero";
+    string one = "one";
+    string two = "two";
+    string three = "three";
+    string four = "four";
+    string erkan = " ";
+
+    int a = 0;
+    int b = 1;
+    int c = 2;
+    int d = 3;
+    int f = 4;
+
+    cout << "Write a number in letter: \n";
+    cin >> erkan;
+
+    if (erkan == zero) {
+
+        cout << a;
+    }
+
+    if (erkan == one) {
+
+        cout << b;
+    }
+    if (erkan == two) {
+
+        cout << c;
+    }
+
+    if (erkan == three) {
+
+        cout << d;
+    }
+
+    if (erkan == four) {
+
+        cout << f;
+    }
+else{
+
+    cout << "not a number I know!";}
+}
+
+
+
+
+
