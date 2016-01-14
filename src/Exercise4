@@ -1,0 +1,39 @@
+#include "eecs230.h"
+
+//
+// Lab 2 programs
+//
+int main() {
+
+    int age;
+    int newage;
+    cout<<"Enter your age: ";
+    cin>>age;
+
+    if(age <= 0 || age >= 110) {
+
+        cout<<" you're kidding!";
+    }
+
+    cout<< "I hear you just had a birthday and you are " << age<< " years old\n";
+
+
+    if(age< 12) {
+
+        age +=1;
+        cout<<" Next year you'll be: "<< age;
+    }
+
+     if(age== 17) {
+
+
+        cout<<" Next year you'll be able to vote  \n";
+    }
+
+    if(age >= 70) {
+
+
+        cout<<" I hope you're enjoying retirement\n";
+    }
+
+}
