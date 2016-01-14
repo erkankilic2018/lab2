@@ -1,0 +1,21 @@
+#include "eecs230.h"
+
+//
+// Lab 2 programs
+//
+
+int main() {
+
+    int erkan=0;
+
+    cout<<"Write a number: ";
+    cin>>erkan;
+
+    if((erkan % 2) == 0) {
+
+        cout<<erkan<< " is an even number\n";
+    }
+    else
+
+        cout<< erkan << " is an odd number\n";
+}
